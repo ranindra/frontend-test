@@ -1,0 +1,16 @@
+.rating-wrapper {
+    // display: flex;
+    span {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        #star { 
+            margin-right: 3px;
+            max-width: 10px;
+            height: 12px;
+            margin-top: 5px;
+        }
+    }
+}
